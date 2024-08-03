@@ -1,0 +1,19 @@
+{
+  "name": "bulk-image-converter",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.4",
+    "yargs-parser": "^21.1.1"
+  }
+}
